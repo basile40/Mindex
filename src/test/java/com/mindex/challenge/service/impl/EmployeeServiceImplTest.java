@@ -25,6 +25,7 @@ public class EmployeeServiceImplTest {
     private String employeeUrl;
     private String employeeIdUrl;
 
+    @SuppressWarnings("unused")
     @Autowired
     private EmployeeService employeeService;
 
@@ -40,6 +41,7 @@ public class EmployeeServiceImplTest {
         employeeIdUrl = "http://localhost:" + port + "/employee/{id}";
     }
 
+    @SuppressWarnings("null")
     @Test
     public void testCreateReadUpdate() {
         Employee testEmployee = new Employee();

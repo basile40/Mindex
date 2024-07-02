@@ -13,6 +13,7 @@ public class Employee {
     public Employee() {
     }
 
+    // Setters and getters.
     public String getEmployeeId() {
         return employeeId;
     }
