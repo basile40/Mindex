@@ -1,2 +1,2 @@
-# Mindex
+# Mindex tests commit
 Mindex challenge assessment
